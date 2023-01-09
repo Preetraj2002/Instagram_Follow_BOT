@@ -21,8 +21,8 @@ website_URL='https://instagram.com'
 driver=webdriver.Chrome(service_log_path=chrome_driver_path,options=options)
 
 SIMILAR_ACC='aubree.valentine_'
-INSTA_ID='pritushawgupta@gmail.com'
-INSTA_PASSWORD='@pritu00'
+INSTA_ID='your_email'
+INSTA_PASSWORD='your_password'
 
 driver.get(website_URL)
 time.sleep(5)
